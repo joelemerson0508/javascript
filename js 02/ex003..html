@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terceiro programa</title>
+    <style>
+        body {
+            background-color: rgb(241, 13, 13); /*comentário em CSS*/
+            color: white;
+            font: normal 25pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Já me livrei da maldição</h1> <!--comentário em HTML-->
+    <p>Estou indo muito bem</p>
+    <script>
+        var n1 = Number(window.prompt('digite um número')) //string, convertendo com o parseInt vira number
+        var n2 = Number(window.prompt('digite outro número')) //string, o mesmo do n1
+        //trocando Int é para número inteiro, mas se colocar Float vira um número real, como 6,5
+        //além de poder usar apenas Number para a maquina se virar
+        var s = n1 + n2
+        window.alert('a soma dos valores é ' + s) //concatenação //podemos usar (s.toString) ou String(s) 
+        //template string utiliza `${}`, podemos utilizar ele ao invés de concatenação nas versões atuais
+        // (number + number) para adição
+        // (string + string) para concatenção
+    </script>
+</body>
+</html>

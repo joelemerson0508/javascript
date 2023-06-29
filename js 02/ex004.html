@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quarto programa</title>
+    <style>
+        body{
+            font: 20pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt('QUal é o seu nome?')
+        document.write(`Olá, <strong> ${nome} </strong>! Seu nome tem ${nome.length} letras.`) //Quantos caracteres a string tem
+        document.write(`Seu nome em letras maiúsculas é ${nome.toUpperCase()}<br/>`) //Letra Maiúscula
+        document.write(`Seu nome em letras minúsculas é ${nome.toLowerCase()}`) //Letra Minúscula
+        //Formando números na aula 6 ainda: n1 = 1545.5
+        //n1 = 1545.5
+        //n1.toFixed(2), que vai ser igual a 1545.50
+        //n1.toFixed(2).replace('.', ','), que vai ser 1545,50 (transformou o ponto em vírgula)
+        //n1.toLocaLeString('pt-BR', {style: 'currency', currency: 'BRL'}) vai transformar em Real, dinheiro br
+        //Se colocar USD, fica em dolar, EUR, em euro. etc.
+    </script>
+</body>
+</html>
